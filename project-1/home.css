@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+
+width: 100%;
+background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("carservice.avif");
+background-position: center;
+background-size: cover;
+height:109vh;
+}
+.navebar{
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+.icon{
+
+width: 200px;
+margin-left: -85px;
+float: left;
+height: 70px;
+}
+.logo{
+
+color: brown;
+font-size: 35px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 20px;
+margin-left: 1px;
+float: left;
+padding-top: 10px ;
+}
+.menu{
+
+width: 400px;
+float: left;
+height: 70px;
+}
+ul{
+
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ul li{
+
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 14px;
+}
+ul li a {
+
+text-decoration: dashed;
+color: aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+color: rgb(154, 73, 58);
+}
+.search{
+
+width: 330px;
+float: left;
+margin-left: 270px;
+}
+
+.srch{
+font-family: 'Times New Roman', Times, serif;
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid brown;
+margin-top: 13px;
+color: azure;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px; 
+}
+.btn{
+width: 100px;
+height: 40px;
+background: rgb(221, 80, 80);
+border: 2px solid brown;
+margin-top: 13px;
+color: bisque;
+font-size: 15px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+} 
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: azure;
+margin-left: 15px;
+position: relative;
+}
+.content.par{
+margin-left: 15px;
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 1.2px;
+line-height: 30px;
+
+
+}
+p.par{
+
+    margin-left: 130px;
+}
+.par{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 1dvb;
+}
+
+.content h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+padding-left: 20px;
+margin-left: 9%;
+letter-spacing: 2px;
+}
+
+button.cn{
+
+width: 160px;
+height: 40px;
+background: brown;
+border: none;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 125px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+transition: .4s ease;
+
+}
+button.cn a{
+    text-decoration: double;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+
+background-color: azure;
+}
+.content span{
+    color: brown;
+    font-size: 60px;
+}
