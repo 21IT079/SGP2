@@ -84,7 +84,7 @@ p {
 }
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(#fff, #15ce87);
     src: ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67ApHuJ94h2qBvdjLt_2tyND7IvSoPngmueqyYR3rpD8ic-Ac5wjVgIAfsh8BOfaN0D4&usqp=CAU");
 }
 
@@ -169,7 +169,7 @@ h4 {
 /* Offer */
 
 .offer {
-    background: radial-gradient(#db6d6d, #f34646);
+    background: radial-gradient(#d6d6d6, #15ce87);
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -265,9 +265,9 @@ height: 1px;
 margin: 20px 0;
 }
 
-.copyright {
+/* .copyright {
 text-align: center;
-}
+} */
 
 .menu-icon {
 width: 28px;
@@ -458,7 +458,7 @@ text-align: right;
 /* account page */
 .account-page {
 padding: 50px 0;
-background: radial-gradient(#fff, #ffd6d6);
+background: radial-gradient(#fff, #9d2020);
 }
 
 .form-container {
