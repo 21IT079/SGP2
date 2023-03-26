@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    }
+    .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(128, 119, 105, 0.477),rgba(192, 165, 137, 0.181)),url(lebo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    .form-box{
+    
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: inherit;
+    padding: 50px 60px 70px;
+    text-align: center;
+    }
+    
+    .form-box h1{
+    font-size: 30px;
+    margin-bottom:60px ;
+    font-family: monospace;
+    color: rgb(157, 140, 127);
+    position: relative;
+    }
+    .input-fide
+    {
+    
+    
+        background: #eaeaea;
+        margin: 15px 00;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        max-height: 65px;
+        transition: max-hight 0.5s;
+        overflow: hidden;
+    }
+    input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px; 
+    }
+    .input-fide i{
+    
+    
+    margin-left: 15px;
+    color: #999;
+    }
+    form a{
+    
+    text-align: left;
+    font-size: 13px;
+    color: rgb(164, 77, 0);
+    margin-right:10px ;
+    margin-left: 220px;
+    } 
+    .btn-fid
+    {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .btn-fid button{
+     
+    flex-basis: 48%;
+    background: #d87504;
+    color: rgb(151, 86, 86);
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 1;
+    cursor: pointer;
+    transition: background 1x; 
+    
+    }
+    
+    .input-group{
+    height: 270px;
+    }
+    .btn-fid button.disable{
+    
+    background: #eaeaea;
+    color: #555;
+    
+    }
+    
