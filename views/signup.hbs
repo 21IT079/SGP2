@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+   <style>
+
+        * {
+        margin: 0;
+         padding: 0;
+         font-family: 'poppins',sans-serif;
+         box-sizing: border-box;
+        }
+
+        form {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(88, 117, 188, 0.477), rgba(185, 114, 34, 0.181)), url("https://i.pinimg.com/736x/ef/98/ed/ef98edb1cbf9eaf75bfc8cc33fb6b389.jpg");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+         input[type=text],
+        input[type=password],
+        input[type=email] {
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            font-size: 25px;
+            display: inline-block;
+            border: black;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            font-style: normal;
+            background: #ffff;
+        } 
+
+        /* input {
+            width: 100%;
+            background: transparent;
+            border: 0;
+            outline: 0;
+            padding: 18px 15px;
+        } */
+
+         input[type=text]:focus,
+        input[type=password]:focus,
+        input[type=email]:focus {
+            background-color: rgb(255, 255, 255);
+            font-size: 25px;
+            border: black;
+            width: 100%;
+            font-style: normal;
+            outline: none;
+        } 
+
+        button {
+            /* background-color: #e069147b; */
+            /* color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 150px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9; */
+            font-size: large;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  width: 80%;
+  height: 20%;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+        
+
+        button:hover {
+            opacity: 1;
+        }
+        .form-box {
+          
+            margin-top: 10px;
+            width: 90%;
+            max-width: 450px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 90%;
+            transform: translate(-50%, -50%);
+            background: inherit;
+            padding: 50px 60px 70px;
+            text-align: center;
+        }
+
+        .input-group {
+            height: 270px;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            margin-top: 10%;
+        }
+
+        /* Avatar image */
+        img.avatar {
+            width: 140px;
+            border-radius: 50%;
+        }
+
+        label {
+            color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    </style>
+</head>
+<body>
+    
+        
+    
+    <form action="/signup" method="post">
+       
+        <div class="form-box">
+            <div class="content">
+                <img src="https://cdn2.vectorstock.com/i/1000x1000/17/61/male-avatar-profile-picture-vector-10211761.jpg"
+            class="avatar">
+                <div class="input-group">
+                    <div class="input-fide" id="namefield">
+                      
+                        <label >User Name</label> <input type="text" name="UserN" id="Un">
+                    </div>
+                    <div class="input-fide">
+                        <label>Email</label>
+                        <input type="email" name="UserE" id="Ue">
+                    </div>
+                    <div class="input-fide">
+                        <label> Password</label>
+                        <input type="password" name="UserP" id="Up">
+                    </div>
+                    <button class="button" type="submit">Signup</button>
+                </div>
+            </div>
+            </div>
+
+
+
+
+    </form>
+</body>
+</html>

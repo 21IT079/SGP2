@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+   <style>
+    body {font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfEtBGRSzXjuJ4JGhttwVTkDh-dsfUA-ZCWdSMm07ag&usqp=CAU&ec=48665701");}
+ * {box-sizing: border-box
+      
+    content-box:calc()
+
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    font-size: large;
+    display: inline-block;
+     border: black;
+     border-radius: 5px;
+    border: none;
+    font-style: normal;
+    background: #ffff;
+  }
+
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: gray
+     font-size: large;
+     border: black;
+       
+    font-style: normal;
+    outline: none;
+  }
+
+button {
+    background-color: #1dc2b57b;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 106%;
+    opacity: 0.9;
+  }
+  button:hover {
+  opacity:1;
+}
+  .form-box{ 
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: inherit;
+    padding: 50px 60px 70px;
+    text-align: center;
+    }
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  margin-top: 10%;
+}
+/* Avatar image */
+img.avatar {
+  width: 140px;
+  border-radius: 50%;
+} 
+label{
+color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 35px;
+}
+
+</style>
+</head>
+<body>
+    <form action="/signupM" method="post">
+       <div class="imgcontainer">
+    <img src="https://cdn2.vectorstock.com/i/1000x1000/17/61/male-avatar-profile-picture-vector-10211761.jpg" class="avatar" >
+  </div>
+  <div class="form-box">
+  <div class="content">
+        <label >Mechanic Name:</label> 
+        <input type="text" name="MechanicN" id="Mn">
+        <label >MechanicEmail:</label> 
+        <input type="email" name="MechanicE" id="Me">
+        <label >Contact Number:</label>
+        <input type="text" name="contact" id="Mc">
+        <label >Shope address:</label>
+        <input type="text" name="Maddress" id="Ma">
+        <label > Password:</label>
+        <input type="password" name="MechanicP" id="Mp">
+        <button type="submit">Signup</button>
+   </div>
+  </div>
+   
+        
+      
+        
+    </form>
+</body>
+</html>
